@@ -23,6 +23,3 @@ function swap(array, idx1, idx2) {
     array[idx2] = array[idx1];
     array[idx1] = temp;
 }
-
-var arr = [0, 100234, -1, 50, 0];
-selectionSort(arr);
